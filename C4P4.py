@@ -1,4 +1,3 @@
-n = int(input("Enter n:"))
 def prime(n):
     x = 0
     for i in range(1, n+1):
@@ -8,4 +7,4 @@ def prime(n):
         print("Prime number")
     else:
         print("Not prime number")
-prime(n)
+prime(int(input("Enter n:")))
