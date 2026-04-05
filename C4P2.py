@@ -16,17 +16,13 @@ z = input("Enter any string to find: ")
 print(f"find {z}:", r.find(f"{z}"))
 print()
 
-y = input("Enter any letter to count: ")
-print("count:", r.count(f"{y}"))
+print("count:", r.count(input("Enter any letter to count: ")))
 print()
 
-w = input("Check start with: ")
-print("starts with:", r.startswith(f"{w}"))
+print("starts with:", r.startswith(input("Check start with: ")))
 print()
 
-v = input("Check End with: ")
-print("End with:", r.endswith(f"{v}"))
+print("End with:", r.endswith(input("Check End with: ")))
 print()
 
-u = input("Split at: ")
-print("split:", r.split(f"{u}"))
+print("split:", r.split(input("Split at: ")))
