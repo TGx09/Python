@@ -1,9 +1,7 @@
 lst = []
-n = int(input("How many elements? "))
 
-for i in range(n):
-    val = int(input("Enter value: "))
-    lst.append(val)
+for i in range(int(input("How many elements? "))):
+    lst.append(int(input("Enter value: ")))
 print()
 
 def abc(p):
