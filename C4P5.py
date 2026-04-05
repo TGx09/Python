@@ -1,6 +1,3 @@
-# "file.txt" should be created first to run this code.
-
-
 f = open("file.txt", "r")
 print(f.read())
 f.close()
@@ -17,9 +14,8 @@ f.close()
 f = open("file.txt", "r")
 print(f.read())
 
-lis = ["Yo!\n", "TG.exe\n", "Iris\n"]
 with open("file.txt", "w") as file:
-    file.writelines(lis)
+    file.writelines(["Yo!\n", "TG.exe\n", "Iris\n"])
     
 with open("file.txt", "r") as file:
     print(file.read())
