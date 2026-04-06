@@ -1,3 +1,5 @@
+# must create a "file.txt" before running the code
+
 f = open("file.txt", "r")
 print(f.read())
 f.close()
